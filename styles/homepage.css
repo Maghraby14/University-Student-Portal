@@ -1,0 +1,192 @@
+body,html{
+height:100%;
+width: 100%;
+}
+
+
+.side img{
+    width:25px;
+    height: 25px;;
+}
+.side{
+    align-items: center;
+}
+.padd{
+    padding-left: 20px;
+}
+.sid-ul{
+    background-color: #1c2959;
+    border-radius: 10px;
+}
+header img{
+    width:25px;
+    height: 25px;
+}
+*{
+    font-family: "League Spartan";
+}
+.side-nav{
+    padding-left: 20px; height: 95%; position: fixed; top:57px; z-index:1; left:0; width: 15.8%;
+}
+.white{
+    color: white;
+}
+.dark-blu{
+    background-color: #1c2959;
+}
+.light-white{
+    background-color: #e5e8ef;
+}
+.shadow-colmn{
+    padding-left: 20px;
+}
+.prof-img{
+    width: 160px;
+}
+.mid-col{
+    position: relative; 
+    top:8%; 
+    background-color: white; 
+    left:5px;
+}
+.welcome-div{
+    border: 1px solid lightgray; border-radius: 10px; background-color: #e5e8ef;
+}
+.sched-table{
+    
+    height: auto;
+    flex-grow: 1; background-color: #e5e8ef; border-radius: 10px; padding: 0; margin-left: 12px; margin-right: 12px;
+    margin-bottom: 5px;
+    
+}
+.course-tab
+{
+    background-color: #1c2959; color: white; padding: 10px; border-radius: 5px; margin: 1px;
+}
+.course-img{
+    width:45px;
+     
+}
+.last-col{
+    position: relative; top:7.5%; left:10px;
+}
+.ins-img{
+     width:100px; height:100px; background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 50%; border: 3px solid #1c2959;
+}
+.ins-img:hover{
+    opacity: 0.7;
+    border: 3px solid #ffc107;
+  
+}
+.notifications-container {
+    text-align: center;
+}
+
+#notificationsButton {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#notificationsContainer {
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.notification {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+.ins-img:active{
+    
+    border: 3px solid #e5e8ef;
+}
+.set-img{
+    width:40px; height:40px; background-position: center; background-repeat: no-repeat; background-size: cover; border-radius: 20px;
+    opacity: 0.7;
+}
+.set-container{
+    border-radius: 5px;
+    border: 1px solid #1c2959;
+}
+.set-container:hover{
+    border-radius: 5px;
+    border: 1px solid #ffc107;
+
+}
+.set-container:active{
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+@media only screen and  (max-width:850px){
+    .side-nav{
+        width:7.5%;
+    }
+  .sid-ul a{
+      display:none;
+  }
+  .shadow-colmn{
+      display:none;
+  }
+  .mid-col{
+      margin-left:80px;
+  }
+  .ins-img{
+      width:60px;
+      height:60px
+  }
+}
+@media only screen and  (max-width:700px){
+    .side-nav{
+        width:10%;
+    }
+  .sid-ul a{
+      display:none;
+  }
+  .shadow-colmn{
+      display:none;
+  }
+  .mid-col{
+      margin-left:80px;
+  }
+  .ins-img{
+      width:60px;
+      height:60px
+  }
+}
+@media only screen and  (max-width:600px){
+    .mid-col{
+        width: 99% !important;
+    }
+    .last-col{
+        width: 100% !important;
+    }
+    .side-nav{
+        display: none;
+    }
+  .sid-ul a{
+      display:none;
+  }
+  .shadow-colmn{
+      display:none;
+  }
+  .mid-col{
+      margin-left:10px;
+      
+  }
+  .ins-img{
+      width:60px;
+      height:60px
+  }
+}

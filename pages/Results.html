@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/results.css">
+    <link rel="stylesheet" href="../styles/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-
+    BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+    crossorigin="anonymous">
+    <link rel="icon" href="../images/pngwing.com.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<title>AASTMT Student Portal</title>
+</head>
+<body>
+    <header class="header " style="position: fixed; width: 100%; z-index: 10;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <img src="../images/pngwing.com.png" alt="" srcset="" style="margin-right: 15px;">
+              <a class="navbar-brand" href="#"><span style="font-weight: bold;">Student</span> Portal</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./HomePage.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Change Language
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Arabic</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another language</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    
+                    <a class="nav-link " >FeedBack</a>
+                  </li>
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  
+                    
+                    <a href="#" data-toggle="popover" title="Notifications" data-content="Your Reasults of AI Have been Realeased"><img src="../images/notification.png" alt="" srcset="" style=" margin-top: 7px; margin-left: 10px;"></a>
+                  
+                </form>
+              </div>
+            </div>
+          </nav> 
+          
+    </header>
+    <div class="sid-ul side-nav" >
+        <ul class="nav flex-column h-100 justify-content-around ">
+            <li class="nav-item d-flex side">
+              <img src="../images/dashboard (1).png" alt=""><a class="nav-link active white" aria-current="page" href="#" style="color: white;">Dashboard</a>
+            </li>
+            <li class="nav-item d-flex side">
+                <img src="../images/online-course.png" alt="">
+              <a class="nav-link white" href="#" style="color: white;">Courses</a>
+            </li>
+            <li class="nav-item d-flex side">
+                <img src="../images/evaluation.png" alt="">
+              <a class="nav-link white" href="./Results.html" style="color: white;">Results</a>
+            </li>
+            <li class="nav-item d-flex side">
+                <img src="../images/user.png" alt="">
+                <a class="nav-link white" href="#" style="color: white;">Profile</a>
+              </li>
+              
+              
+              <li class="nav-item d-flex side">
+                <img src="../images/room.png" alt="">
+                <a class="nav-link white" href="#" style="color: white;">Student appeal</a>
+              </li>
+              <li class="nav-item d-flex side">
+                <img src="../images/logout.png" alt="">
+                <a class="nav-link white" href="./index.html" style="color: white;">Logout</a>
+              </li>
+            
+          </ul>
+    </div>
+    <div class=" m-0 h-100 w-100">
+        <div class="row  w-100">
+            
+            <div class="col-2   shadow-colmn" style="background-color: transparent;" >
+
+            </div>
+            <div class="col-10  h-100 mid-col" style="margin-top:59px">
+                <div class="row ">
+                    <div class="col">
+                        <h2>Student Results</h2>
+                        <p>View the Results and attendance of current and previous semesters</p>
+                    </div>
+
+                </div>
+                <div class="row ">
+                    <div class="col">
+                        <h2>Semesters</h2>
+                        <p>Semesters that the student registered</p>
+                        <div class="btn-group" style=" width: 100%; overflow-x: scroll;">
+                            <div class="btn btn-warning ">September 2019</div>
+                            <div class="btn btn-warning">Febrary 2020</div>
+                            <div class="btn btn-warning">September 2020</div>
+                            <div class="btn btn-warning">Febrary 2021</div>
+                            <div class="btn btn-warning">Summer 2021</div>
+                            <div class="btn btn-warning">September 2021</div>
+                            <div class="btn btn-warning">Febrary 2022</div>
+                            <div class="btn btn-warning">Summer 2022</div>
+                            <div class="btn btn-warning">September 2022</div>
+                            <div class="btn btn-warning">Febrary 2023</div>
+                            <div class="btn btn-warning active">September 2023</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>Semester Results</h2>
+                        <table style="text-align: center; width: 100%;  background-color:#e5e8ef; border-radius: 10px;  margin-bottom:10px;">
+                            
+                            <tbody >
+                                <tr >
+                                    <th colspan="3">NE 466 <br> Enviromental Science</th>
+                                    <th rowspan="2">U</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>U <br> 7th Week</td>
+                                    <td>U <br> 12th Week</td>
+                                    <td>U <br> Course Work</td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style="text-align: center; width: 100%;  background-color:#e5e8ef; border-radius: 10px; margin-bottom:10px;">
+                            
+                            <tbody >
+                                <tr >
+                                    <th colspan="3">CC 501 <br> Senior Project I</th>
+                                    <th rowspan="2">U</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>U <br> 7th Week</td>
+                                    <td>U <br> 12th Week</td>
+                                    <td>U <br> Course Work</td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style="text-align: center; width: 100%;  background-color:#e5e8ef; border-radius: 10px; margin-bottom:10px;">
+                            
+                            <tbody >
+                                <tr >
+                                    <th colspan="3">CC 511 <br> AI</th>
+                                    <th rowspan="2">U</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>U <br> 7th Week</td>
+                                    <td>U <br> 12th Week</td>
+                                    <td>U <br> Course Work</td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style="text-align: center; width: 100%;  background-color:#e5e8ef; border-radius: 10px; margin-bottom:10px;">
+                            
+                            <tbody >
+                                <tr >
+                                    <th colspan="3">CC 516 <br> Pattern Recognition</th>
+                                    <th rowspan="2">U</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>U <br> 7th Week</td>
+                                    <td>U <br> 12th Week</td>
+                                    <td>U <br> Course Work</td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style="text-align: center; width: 100%;  background-color:#e5e8ef; border-radius: 10px; margin-bottom:10px;">
+                            
+                            <tbody >
+                                <tr >
+                                    <th colspan="3">CC 531 <br> Advanced Networks</th>
+                                    <th rowspan="2">U</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>U <br> 7th Week</td>
+                                    <td>U <br> 12th Week</td>
+                                    <td>U <br> Course Work</td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style="text-align: center; width: 100%;  background-color:#e5e8ef; border-radius: 10px; margin-bottom:10px;">
+                            
+                            <tbody >
+                                <tr >
+                                    <th colspan="3">CC 552 <br> Web Development</th>
+                                    <th rowspan="2">U</th>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>U <br> 7th Week</td>
+                                    <td>U <br> 12th Week</td>
+                                    <td>U <br> Course Work</td>
+                                    
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+               
+                <div class="row">
+                    <div class="col d-flex flex-column align-items-center">
+                        <table style="text-align: center; width: 300px;  background-color:#1c2959; border-radius: 10px;  margin-top:10px; color: #e5e8ef; margin-bottom: 10px;">
+                            <tbody>
+                                <tr><td>144 <br> Credit Achieved</td>
+                                    <td class="bg-warning" style="color: black;">
+                                        3.83 <br> GPA
+                                    </td></tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+
+                </div>    
+
+            </div>
+            
+        
+
+    </div>
+    
+
+
+
+<script src="../code/jquery-3.7.1.min.js"></script>
+<script src="../code/popper.min.js"></script>
+<script src="../code/bootstrap.js"></script>
+</body>
+</html>
